@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8fde91f-68d0-4a66-b98f-5a2e52c35db5" name="Changes" comment="retrieved the salesperson with the first name Robin and city Barcelona.">
+    <list default="true" id="c8fde91f-68d0-4a66-b98f-5a2e52c35db5" name="Changes" comment="Found the average commission rate of a salesperson.">
       <change beforePath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,63 @@
       <option name="project" value="LOCAL" />
       <updated>1663232273454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="got the city and commission rate of John">
+      <created>1663232311566</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232311566</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Fetched all the details of salespersons with a commission rate greater than 15">
+      <created>1663232348393</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232348393</updated>
+    </task>
+    <task id="LOCAL-00011" summary="-- Fetched all the details of salespersons with a commission rate between 10 and 20.">
+      <created>1663232397688</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232397688</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Retrieved the first name and city of salespersons who have a commission rate of more than 25.">
+      <created>1663232432916</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232432916</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Got the first name and city of salespersons who have a commission rate as 0.">
+      <created>1663232475614</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232475614</updated>
+    </task>
+    <task id="LOCAL-00014" summary="-- Fetched all the salespersons whose name begins with ‘J’.&#10;SELECT first_name FROM `salesperson` WHERE first_name LIKE 'J%';">
+      <created>1663232505103</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232505103</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Retrieved all the salespersons from London, New York, and San Jose.">
+      <created>1663232544752</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232544752</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Found the average commission rate of a salesperson.">
+      <created>1663232577928</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232577928</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,7 +179,15 @@
     <MESSAGE value="inserted the details of all the sales person" />
     <MESSAGE value="fetched the details of sales person" />
     <MESSAGE value="retrieved the salesperson with the first name Robin and city Barcelona." />
-    <option name="LAST_COMMIT_MESSAGE" value="retrieved the salesperson with the first name Robin and city Barcelona." />
+    <MESSAGE value="got the city and commission rate of John" />
+    <MESSAGE value="Fetched all the details of salespersons with a commission rate greater than 15" />
+    <MESSAGE value="-- Fetched all the details of salespersons with a commission rate between 10 and 20." />
+    <MESSAGE value="Retrieved the first name and city of salespersons who have a commission rate of more than 25." />
+    <MESSAGE value="Got the first name and city of salespersons who have a commission rate as 0." />
+    <MESSAGE value="-- Fetched all the salespersons whose name begins with ‘J’.&#10;SELECT first_name FROM `salesperson` WHERE first_name LIKE 'J%';" />
+    <MESSAGE value="Retrieved all the salespersons from London, New York, and San Jose." />
+    <MESSAGE value="Found the average commission rate of a salesperson." />
+    <option name="LAST_COMMIT_MESSAGE" value="Found the average commission rate of a salesperson." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

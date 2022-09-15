@@ -58,3 +58,6 @@ SELECT * FROM `salesperson` WHERE city IN ('London','New York','San Jose');
 
 -- Find the average commission rate of a salesperson.
 SELECT avg('commision_rate') FROM `salesperson`;
+
+-- Retrieve the names of all the salespersons with a commission rate of 10, 11, 12, and 13.
+SELECT first_name, commision_rate FROM `salesperson` WHERE commision_rate IN ('10','11','12','13');
