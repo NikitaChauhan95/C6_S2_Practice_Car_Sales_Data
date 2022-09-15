@@ -52,3 +52,6 @@ SELECT first_name, city FROM `salesperson` WHERE commision_rate = '0';
 
 -- Fetch all the salespersons whose name begins with ‘J’.
 SELECT first_name FROM `salesperson` WHERE first_name LIKE 'J%';
+
+-- Retrieve all the salespersons from London, New York, and San Jose.
+SELECT * FROM `salesperson` WHERE city IN ('London','New York','San Jose');
