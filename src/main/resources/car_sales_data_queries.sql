@@ -49,3 +49,6 @@ SELECT first_name, city FROM `salesperson` WHERE commision_rate > '25';
 
 -- Get the first name and city of salespersons who have a commission rate as 0.
 SELECT first_name, city FROM `salesperson` WHERE commision_rate = '0';
+
+-- Fetch all the salespersons whose name begins with ‘J’.
+SELECT first_name FROM `salesperson` WHERE first_name LIKE 'J%';
