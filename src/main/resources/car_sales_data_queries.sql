@@ -61,3 +61,6 @@ SELECT avg('commision_rate') FROM `salesperson`;
 
 -- Retrieve the names of all the salespersons with a commission rate of 10, 11, 12, and 13.
 SELECT first_name, commision_rate FROM `salesperson` WHERE commision_rate IN ('10','11','12','13');
+
+-- Find the salesperson and city that has the maximum commission rate.
+SELECT first_name, city, max(commision_rate) FROM `salesperson`;
