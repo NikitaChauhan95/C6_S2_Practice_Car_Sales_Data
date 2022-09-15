@@ -37,3 +37,6 @@ SELECT first_name, city FROM `salesperson` WHERE first_name = 'Robbin' AND city 
 
 -- get the city and commission rate of John
 SELECT  city, commision_rate FROM `salesperson` WHERE first_name = 'John';
+
+-- Fetch all the details of salespersons with a commission rate greater than 15
+SELECT * FROM `salesperson` WHERE commision_rate> '15';
