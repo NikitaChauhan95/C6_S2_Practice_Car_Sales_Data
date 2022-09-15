@@ -55,3 +55,6 @@ SELECT first_name FROM `salesperson` WHERE first_name LIKE 'J%';
 
 -- Retrieve all the salespersons from London, New York, and San Jose.
 SELECT * FROM `salesperson` WHERE city IN ('London','New York','San Jose');
+
+-- Find the average commission rate of a salesperson.
+SELECT avg('commision_rate') FROM `salesperson`;
