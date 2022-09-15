@@ -43,3 +43,6 @@ SELECT * FROM `salesperson` WHERE commision_rate> '15';
 
 -- Fetch all the details of salespersons with a commission rate between 10 and 20.
 SELECT * FROM `salesperson` WHERE commision_rate BETWEEN '10' AND '20';
+
+-- Retrieve the first name and city of salespersons who have a commission rate of more than 25.
+SELECT first_name, city FROM `salesperson` WHERE commision_rate > '25';
