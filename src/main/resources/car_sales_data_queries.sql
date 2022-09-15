@@ -34,3 +34,6 @@ SELECT * FROM `salesperson`;
 
 -- retrieve the salesperson with the first name Robin and city Barcelona.
 SELECT first_name, city FROM `salesperson` WHERE first_name = 'Robbin' AND city = 'Barcelona';
+
+-- get the city and commission rate of John
+SELECT  city, commision_rate FROM `salesperson` WHERE first_name = 'John';

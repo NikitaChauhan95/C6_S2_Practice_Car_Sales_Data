@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8fde91f-68d0-4a66-b98f-5a2e52c35db5" name="Changes" comment="created the file car sales data queries in resource folder">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c8fde91f-68d0-4a66-b98f-5a2e52c35db5" name="Changes" comment="retrieved the salesperson with the first name Robin and city Barcelona.">
       <change beforePath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/car_sales_data_queries.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +65,42 @@
       <option name="project" value="LOCAL" />
       <updated>1663226635150</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;created the database car sales">
+      <created>1663232077150</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232077150</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created table sales person and added  the details column">
+      <created>1663232146546</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232146546</updated>
+    </task>
+    <task id="LOCAL-00006" summary="inserted the details of all the sales person">
+      <created>1663232187051</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232187051</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fetched the details of sales person">
+      <created>1663232222584</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232222584</updated>
+    </task>
+    <task id="LOCAL-00008" summary="retrieved the salesperson with the first name Robin and city Barcelona.">
+      <created>1663232273454</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1663232273454</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -84,7 +118,12 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="changed the jdk version from 18 to 11" />
     <MESSAGE value="created the file car sales data queries in resource folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="created the file car sales data queries in resource folder" />
+    <MESSAGE value="&#10;created the database car sales" />
+    <MESSAGE value="created table sales person and added  the details column" />
+    <MESSAGE value="inserted the details of all the sales person" />
+    <MESSAGE value="fetched the details of sales person" />
+    <MESSAGE value="retrieved the salesperson with the first name Robin and city Barcelona." />
+    <option name="LAST_COMMIT_MESSAGE" value="retrieved the salesperson with the first name Robin and city Barcelona." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
