@@ -31,3 +31,6 @@ INSERT INTO `CarSales`.`salesperson` VALUES('1008', 'Charles','Florida','0');
 
 -- fetch all the details of the sales persons
 SELECT * FROM `salesperson`;
+
+-- retrieve the salesperson with the first name Robin and city Barcelona.
+SELECT first_name, city FROM `salesperson` WHERE first_name = 'Robbin' AND city = 'Barcelona';
