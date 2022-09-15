@@ -28,3 +28,6 @@ INSERT INTO `CarSales`.`salesperson` VALUES('1003', 'Harry','NewYork','10');
 INSERT INTO `CarSales`.`salesperson` VALUES('1005', 'James','London','26');
 -- insert the details of the sales person Charles
 INSERT INTO `CarSales`.`salesperson` VALUES('1008', 'Charles','Florida','0');
+
+-- fetch all the details of the sales persons
+SELECT * FROM `salesperson`;
